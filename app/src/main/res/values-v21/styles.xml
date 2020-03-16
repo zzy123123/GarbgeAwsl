@@ -3,8 +3,9 @@
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         //自定义主题样式，继承了无标题栏样式，将导航栏设置为透明等等，具体各个属性的作用，还有待进一步探究
+
         <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
         <item name="android:windowTranslucentNavigation">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
