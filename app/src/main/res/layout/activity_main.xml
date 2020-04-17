@@ -29,7 +29,8 @@
         android:orientation="vertical"
         tools:context=".MainActivity"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-28dp">
+        tools:layout_editor_absoluteY="-28dp"
+        >
 
         <com.example.garbgeawsl.Search.SearchView
             android:id="@+id/search_view"
@@ -46,7 +47,7 @@
         <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="-20dp"
             android:fitsSystemWindows="true"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -63,15 +64,27 @@
                 android:paddingBottom="3dp"
                 android:visibility="visible" />
 
-            <TextView
-                android:id="@+id/tv_data"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
                 android:layout_marginTop="270dp"
-                android:gravity="center"
-                android:padding="10dp"
-                android:text=""
-                android:textSize="24sp" />
+                android:fadeScrollbars="true"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:scrollbarDefaultDelayBeforeFade="1000"
+                android:scrollbarFadeDuration="1000"
+                android:scrollbars="vertical">
+
+                <TextView
+                    android:id="@+id/tv_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:text=""
+                    android:textSize="24sp" />
+            </ScrollView>
 
         </android.support.design.widget.CoordinatorLayout>
 
