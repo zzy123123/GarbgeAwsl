@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">GarbgeAwsl</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">语音搜</string>
+    <string name="title_dashboard">检索</string>
+    <string name="title_notifications">设置</string>
+
+    <string name="title_1">湿垃圾</string>
+    <string name="title_2">干垃圾</string>
+    <string name="title_3">可回收物</string>
+    <string name="title_4">有害垃圾</string>
+
+    <string name="text_1">厨余垃圾、有机垃圾及易腐餐厨废弃物\n\n\n◇&#160;沥干水分\n◇&#160;有外包装的应去除外包装\n◇&#160;与其他种类垃圾分开投放</string>
+    <string name="text_2">除其他三类垃圾外的生活废弃物\n\n\n◇&#160;易碎或已污染的，应包裹后投放\n◇&#160;投放时，应保持周围环境整洁\n◇&#160;与其他种类垃圾分开投放</string>
+    <string name="text_3">指适宜回收可循环利用的废弃物\n\n\n◇&#160;投放时应尽量保持清洁干燥，避免污染\n◇&#160;有内容物的，应清空并清洁后压扁投放\n◇&#160;易碎尖锐的，应包裹后投放</string>
+    <string name="text_4">指对人体健康或者自然环境造成直接或潜在危害的废弃物\n\n◇&#160;分类投放有害垃圾时，应注意轻放\n◇&#160;易碎尖锐的，应连带包装或包裹后轻放\n◇&#160;压力罐装容器，应排空内容物后轻放</string>
+
+    <declare-styleable name="Search_View">
+        <attr name="textSizeSearch" format="dimension"  />
+        <attr name="textColorSearch" format="color" />
+        <attr name="textHintSearch" format="string" />
+        <attr name="searchBlockHeight" format="integer" />
+        <attr name="searchBlockColor" format="color" />
+    </declare-styleable>
 </resources>
